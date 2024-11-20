@@ -1,0 +1,40 @@
+# Title: TekHandy/blocklists/default
+#
+# This hosts file follows the pattern of StevenBlack's public
+# collection of hosts to block, redirecting them to 0.0.0.0
+#
+# This default file contains additions made for customers of
+# Tek Handy LLC, as well as personal additions from the owner. 
+#
+# Fetch the latest version of Steven Black's file: https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+# Steven Black's home page: https://github.com/StevenBlack/hosts
+# Steven Black's host Project releases: https://github.com/StevenBlack/hosts/releases
+#
+# ===============================================================
+
+127.0.0.1 localhost
+127.0.0.1 localhost.localdomain
+127.0.0.1 local
+255.255.255.255 broadcasthost
+::1 localhost
+::1 ip6-localhost
+::1 ip6-loopback
+fe80::1%lo0 localhost
+ff00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+ff02::3 ip6-allhosts
+0.0.0.0 0.0.0.0
+
+# Custom host records are listed here.
+
+
+# End of custom host records.
+# Start TekHandy
+
+#=====================================
+# Title: Hosts contributed by Tek Handy LLC
+# https://www.tekhandy.com
+
+0.0.0.0 somedomain.tld
